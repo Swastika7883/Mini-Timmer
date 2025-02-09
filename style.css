@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inconsolata:wght@200..900&family=Tiny5&display=swap');
+body{
+  
+/*   background-color:rgb(26, 26, 29); */
+  font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('./download.gif');
+  background-size: cover;  
+  background-position: bottom; /* Centers the GIF */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-attachment: fixed;
+ 
+}
+
+
+
+
+.nav{
+  margin:0;
+  display:flex;
+  justify-content: end;
+  gap:50px;
+  padding:1.5%;
+  /* background-color:rgb(166, 77, 121); */
+ 
+  
+ 
+  box-shadow: 0px 0px 10px ; 
+}
+
+.nav-item:first-child {
+  margin-right:auto;
+}
+
+.nav-item a {
+  text-decoration:none;
+  color: black;
+  transition: all 200ms ease-in;
+  
+  
+}
+.nav-item{
+  list-style: none;
+  font-size: 30px;
+}
+
+.nav-item a:hover{
+  color:#FFEBEE;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Timer Section */
+.timer-setup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Space above start button */
+    font-size: 42px;
+}
+
+.timer-inputs input {
+    font-family: "Tiny5", serif;
+  font-weight: 600;
+  font-style: normal;
+    width: 65px;
+    padding: 4px;
+    font-size: 50px;
+    text-align: center;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(22, 20, 20);
+    outline: none;
+}
+
+/* Countdown Timer Display */
+#countdown-display {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px; /* Adds gap before start button */
+}
+
+/* Start Button */
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.start-btn {
+    height: 100px;
+    width: 240px;
+    border-radius: 15px;
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    color: rgb(32, 139, 240);
+    font-size: 45px;
+    background-color: #15243d;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(32, 139, 240, 0.5);
+}
+
+.start-btn:hover {
+    background-color: rgb(32, 139, 240);
+    color: #15243d;
+}
+
+/* Alarm Popup */
+/* Alarm Popup */
+#alarm-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(17, 17, 17, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+    width: 550px; /* Adjust width */
+}
+
+/* Center the GIF */
+#alarm-gif {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Stop Alarm Button (Positioned Below the GIF) */
+#close-alarm {
+    display: block;
+    width: 200px;
+    margin: 20px auto 0; /* Push it below the GIF */
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#close-alarm:hover {
+    background-color: #c9302c;
+}
+
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+p{
+    color:rgba(4, 4, 4, 0.9)
+}
+
+
+/* ------------------------------ audio setting --------------- */
+
+/* Settings dropdown */
+
+
+.settings-dropdown label, .settings-dropdown select, .settings-dropdown button {
+    display: block;
+    margin: 11px 0;
+}
+
+#bg-music-select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    color: black;
+}
+
+.settings-dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+

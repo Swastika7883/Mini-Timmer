@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item">
+              <a href="#" id="settings-btn">Settings</a>
+              <div id="settings-menu" class="settings-dropdown">
+                <select id="bg-music-select">
+                    <option value="./good-night-lofi-cozy-chill-music-160166.mp3">Song 1</option>
+                    <option value="song2.mp3">Song 2</option>
+                    <option value="song3.mp3">Song 3</option>
+                </select>
+              </div>  <!-- ✅ Closing the div properly -->
+          </li>
+          <li class="nav-item"><a href="#">Exit</a></li>
+        </ul>
+    </nav>
+
+    <p id="countdown-display">Time Left: 00 : 00 : 10</p>
+    <div class="start"><button class="start-btn">Start</button></div>
+    <button id="mute-button">🔊 Mute</button> <!-- Mute Button -->
+
+    <audio id="bg-music" loop>
+        <source id="bg-music-source" src="./good-night-lofi-cozy-chill-music-160166.mp3" type="audio/mpeg">
+    </audio>
+      
+    <!-- Timer Setup -->
+    <div class="timer-setup">
+        <label>Set Timer:</label>
+        <div class="timer-inputs">
+            <input type="number" id="hours" min="0" value="0"> h
+            <input type="number" id="minutes" min="0" max="59" value="0"> m
+            <input type="number" id="seconds" min="0" max="59" value="10"> s
+        </div>
+    </div>
+
+    <!-- Alarm Section -->
+    <div id="alarm-popup">
+        <h2>⏰ Alarm Ringing!</h2>
+        <img id="alarm-gif" src="./Programmer Day - Porforever.gif" alt="Alarm">
+        <button id="close-alarm">Stop Alarm</button>
+    </div>
+
+    <audio id="alarm-sound">
+        <source src="./alarm.wav" type="audio/mpeg">
+    </audio>
+
+    <script src="index.js"></script>
+</body>
+</html>
