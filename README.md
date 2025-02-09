@@ -1,4 +1,4 @@
-# Mini Timer
+# ๋࣭ ⭑⚝🌸˚˖˚⋆ Mini Timer 𓍢ִ໋🌷͙֒✧🩷 ฅ^>⩊<^ ฅ
 
 A simple web-based timer application that allows users to set, start, and stop a countdown timer with sound alerts.
 
