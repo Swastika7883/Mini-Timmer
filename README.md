@@ -18,8 +18,12 @@ A simple web-based timer application that allows users to set, start, and stop a
    cd Mini-Timmer
    ```
 3. Open `index.html` in a web browser.
+   
+Preview :
 
 ![image alt](https://github.com/Swastika7883/Mini-Timmer/blob/1e0ffb7a275546e2607192ec045d7cf2e1b364c0/Screenshot%202025-02-09%20145021.png)
+
+
 ![image alt](https://github.com/Swastika7883/Mini-Timmer/blob/0fe5ac577938f2feb4d88c5e2a76122cd0f6bbf6/Screenshot%202025-02-09%20145121.png)
 
 ## Usage
