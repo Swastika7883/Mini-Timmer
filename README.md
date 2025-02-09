@@ -40,3 +40,5 @@ This project is open-source and available under the MIT License.
 ## Contact
 For any questions or suggestions, reach out via GitHub: [Swastika7883](https://github.com/Swastika7883).
 
+run = "https://swastika7883.github.io/Mini-Timmer/"
+
