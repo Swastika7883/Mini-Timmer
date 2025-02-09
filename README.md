@@ -1,14 +1,14 @@
-# ๋࣭ ⭑⚝🌸˚˖˚⋆ Mini Timer 𓍢ִ໋🌷͙֒✧🩷 ฅ^>⩊<^ ฅ
+# ๋࣭ ⭑⚝🌸˚˖˚🌸⋆ Mini Timer 𓍢ִ໋🌷͙֒✧🩷 ฅ^>⩊<^ ฅ
 
 A simple web-based timer application that allows users to set, start, and stop a countdown timer with sound alerts.
 
-## Features
+## Features 𓍢ִ໋🌷͙֒ ᰔᩚ
 - Start, pause, and reset the timer
 - Customizable countdown duration
 - Sound notification when the timer reaches zero
 - Minimalistic and user-friendly interface
 
-## Installation
+## Installation 𓍢ִ໋🌷͙֒ ᰔᩚ
 1. Clone the repository:
    ```sh
    git clone https://github.com/Swastika7883/Mini-Timmer.git
@@ -19,29 +19,29 @@ A simple web-based timer application that allows users to set, start, and stop a
    ```
 3. Open `index.html` in a web browser.
    
-Preview :
+Preview 𓍢ִ໋🌷͙֒ ᰔᩚ
 
 ![image alt](https://github.com/Swastika7883/Mini-Timmer/blob/1e0ffb7a275546e2607192ec045d7cf2e1b364c0/Screenshot%202025-02-09%20145021.png)
 
 
 ![image alt](https://github.com/Swastika7883/Mini-Timmer/blob/0fe5ac577938f2feb4d88c5e2a76122cd0f6bbf6/Screenshot%202025-02-09%20145121.png)
 
-## Usage
+## Usage 💗( •̯́ ^ •̯̀) 💗
 1. Set the desired countdown duration.
 2. Click the **Start** button to begin the countdown.
 3. Pause or reset the timer as needed.
 4. A sound alert will play when the timer reaches zero.
 
-## Files
+## Files 💗 ≽^•⩊•^≼ 💗
 - `index.html` - Main HTML structure
 - `style.css` - Styles for the UI
 - `index.js` - JavaScript logic for the timer
 - `alarm.wav` - Sound notification file
 
-## Contributing
+## Contributing 🌸🌸 (˶˃ ᵕ ˂˶) 🌸🌸⋆౨ৎ˚⟡˖ ࣪
 Feel free to fork this repository and submit pull requests with improvements or new features.
 
-## License
+## License 🌸🌸
 This project is open-source and available under the MIT License.
 
 ## Contact
